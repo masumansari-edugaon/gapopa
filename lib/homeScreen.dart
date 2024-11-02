@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class DraggableIconsScreen extends StatefulWidget {
-  const DraggableIconsScreen({super.key});
+class HomeScreen extends StatefulWidget {
+  const HomeScreen({super.key});
 
   @override
-  _DraggableIconsScreenState createState() => _DraggableIconsScreenState();
+  _HomeScreenState createState() => _HomeScreenState();
 }
 
-class _DraggableIconsScreenState extends State<DraggableIconsScreen> {
+class _HomeScreenState extends State<HomeScreen> {
   List<bool> isDragging = List.filled(5, false);
 
   final List<Color> containerColors = [
